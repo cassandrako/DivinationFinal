@@ -1,0 +1,86 @@
+body {
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+    font-size: 24px; /* Set font size to 24 pixels */
+  }
+
+.image-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center align images horizontally */
+  }
+  
+  .image {
+    flex: 1; /* Distribute available space evenly among all image divs */
+    margin: 10px; /* Add margin between images */
+    text-align: center; /* Center align content inside image divs */
+    opacity: 0; /* Set initial opacity to 0 */
+  animation: fade-in 2s ease-in-out forwards; /* Apply fade-in animation */
+  }
+
+    .imageTitle {
+      display: flex; /* Use flexbox for layout */
+      text-align: center; /* Center align content inside image divs */
+      flex: 1; /* Distribute available space evenly among all image divs */
+    margin: 10px; /* Add margin between images */
+    opacity: 0; /* Set initial opacity to 0 */
+  animation: fade-in 2s ease-in-out forwards; /* Apply fade-in animation */
+  }
+
+  .imageTitle img{
+    margin-top: 3%;
+    margin-left: -5%;
+    width: 98vw; /* Set desired width */
+    height: 100vh; /* Set desired height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  .image img {
+    margin-top: 15%;
+    width: 250px; /* Set desired width */
+    height: 400px; /* Set desired height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .image2 {
+    flex: 1; /* Distribute available space evenly among all image divs */
+    margin: 10px; /* Add margin between images */
+    text-align: center; /* Center align content inside image divs */
+    opacity: 0; /* Set initial opacity to 0 */
+  animation: fade-in 2s ease-in-out forwards; /* Apply fade-in animation */
+  }
+  
+  .image2 img {
+    margin-top: 15%;
+    width: 350px; /* Set desired width */
+    height: 600px; /* Set desired height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+
+  #question3{
+    margin-left: 26%;
+    margin-top: 5%;
+  }
+
+  #question2{
+    margin-left: 29%;
+    margin-top: 5%;
+  }
+
+  #question1{
+    margin-left: 40%;
+    margin-top: 5%;
+  }
+
+  #intro{
+    width: 600px; /* Set desired width */
+    height: 350px; /* Set desired height */
+  }
